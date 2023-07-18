@@ -1,0 +1,122 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#ipdesc {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav,
+.container {
+  padding: 1rem 3rem;
+}
+nav {
+  font-size: 1.5rem;
+}
+.bg-1 {
+  background-color: rgb(101, 101, 210);
+}
+.main {
+  height: 100vh;
+  padding-top: 4rem;
+}
+.inp,
+.op {
+  width: 50%;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.items-center {
+  justify-content: center;
+}
+form {
+  font-size: 1.5rem;
+}
+.formbg {
+  width: 50%;
+  margin: auto;
+
+  background-color: white;
+  padding: 1rem;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  padding: 0.8rem;
+}
+.save {
+  margin-top: 1rem;
+  width: 30%;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6%;
+  font-size: 1rem;
+}
+.save:hover {
+  background-color: rgb(59, 56, 56);
+}
+
+table {
+  border-spacing: 0 15px;
+  width: 100%;
+}
+thead {
+  color: white;
+  font-size: 1.2rem;
+}
+tbody {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.tab1 {
+  /* width: 30%; */
+}
+.tab2 {
+  width: 60%;
+  /* padding: 0 1rem; */
+}
+.tab22 {
+  padding-right: 1rem;
+  /* padding-left: 1rem; */
+}
+.tab3 button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 10%;
+  transition: all;
+}
+.tab3 button:hover {
+  background-color: orangered;
+}
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 0;
+}
+thead th,
+thead td {
+  border-bottom: 1px solid #ddd;
+}
+tbody {
+  margin-top: 3rem;
+}
+tbody {
+  background-color: white;
+  /* margin-top: 100px; */
+}
+tr th {
+  padding: 1rem;
+}

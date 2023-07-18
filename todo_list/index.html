@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <nav>To-do List</nav>
+      <!-- First up, the form... -->
+      <div class="bg-1 main container flex">
+        <div class="inp">
+          <div class="formbg">
+            <form class="flex-col" id="form">
+              <input type="text" placeholder="Task" id="iptxt" />
+              <textarea
+                placeholder="Description"
+                rows="10"
+                cols="30"
+                id="ipdesc"
+              ></textarea>
+              <button type="submit" class="save" onclick="addlist">Save</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Now, the table -->
+        <div class="op">
+          <div class="tableup">
+            <table>
+              <thead>
+                <tr>
+                  <th class="tab1">Title</th>
+                  <td class="tab2">Description</td>
+                  <td class="tab3">Delete</td>
+                </tr>
+              </thead>
+              <!-- <tbody class="trow">
+                <tr>
+                  <th class="tab1">Title</th>
+                  <td class="tab2">Description</td>
+                  <td class="tab3"><button class="del">X</button></td>
+                </tr>
+              </tbody> -->
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
